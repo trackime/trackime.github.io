@@ -33,7 +33,7 @@ function App() {
       <WindowSizeContextProvider>
         <div className="w-screen h-screen min-w-[1400px]">
 
-          <TopVideoBox video1={video1} video2={video2} video3={video3} video4={video4} video5={video5} video6={video6} title="(Zero-shot Video Segmentation with in-the-wild YouTube clips)" backgroundColor="white"/>
+          <TopVideoBox video1={video1} video2={video2} video3={video3} video4={video4} video5={video5} video6={video6} title="(Zero-shot demo with in-the-wild YouTube clips)" backgroundColor="white"/>
 
           {/* FIXME: Title, Author */}
           <TextBox
