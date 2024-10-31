@@ -10,7 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "vite build",
-    "deploy": "tsc && vite build && main -d build"
+    "deploy": "tsc && vite build && gh-pages -d build"
   },
   "dependencies": {
     "history": "^5.3.0",
